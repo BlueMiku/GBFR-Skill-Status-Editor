@@ -16,8 +16,7 @@ export straight back to a game-ready `.tbl` file.
 - Converts `skill_status.tbl` to an editable database and back, without
   needing to touch SQLite tools directly
 - Automatically patches GBFRDataTools' `skill_status.headers` to understand
-  Endless Ragnarok's table format (the ER table added 16 extra bytes per row
-  that the community header definition didn't originally account for),
+  Endless Ragnarok's table format
   backing up the original file first
 - Resolves internal skill IDs and level descriptions into readable names
   using bundled localization data, including brute-force hash matching to
@@ -32,8 +31,7 @@ export straight back to a game-ready `.tbl` file.
 - Your own extracted `skill_status.tbl` (from `system/table/skill_status.tbl`
   in the game's data archive - use GBFRDataTools' `extract`/`extract-all`
   commands against your own copy of the game)
-- If running from source: Python 3.9+ with tkinter (bundled with most
-  Windows Python installs)
+- If running from source: Python 3.9+ with tkinter
 
 ## Usage
 
