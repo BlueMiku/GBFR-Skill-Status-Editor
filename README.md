@@ -5,6 +5,12 @@ A standalone tool for editing `skill_status.tbl` in **Granblue Fantasy: Relink**
 level values with readable skill names instead of raw internal IDs, then
 export straight back to a game-ready `.tbl` file.
 
+> ⚠️ **Do not use table mods made with this tool while playing online.**
+> Editing `skill_status.tbl` changes gameplay values the game/server may not
+> expect, which risks account action. **Fully disable/remove this mod before
+> playing online**, and only use it offline. This applies to any mod built
+> from tables edited with this tool, not just this specific one.
+
 ## Features
 
 - Converts `skill_status.tbl` to an editable database and back, without

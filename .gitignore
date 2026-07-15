@@ -9,3 +9,6 @@ dist/
 
 # Working cache/edit database + changelog (generated at runtime, not source)
 data/cache/
+
+# Staged release zips - built artifacts, not source
+release_staging/
