@@ -22,8 +22,6 @@ export straight back to a game-ready `.tbl` file.
 - Logs every edit (old value, new value, timestamp) to a changelog CSV
 
 ## Requirements
-
-- Windows (uses GBFRDataTools, a Windows tool)
 - [GBFRDataTools](https://github.com/Nenkai/GBFRDataTools/releases)
 - Your own extracted `skill_status.tbl` (from `system/table/skill_status.tbl`
   in the game's data archive - use GBFRDataTools' `extract`/`extract-all`
